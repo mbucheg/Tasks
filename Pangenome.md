@@ -11,4 +11,4 @@ The pangenome is a collection of genomes from genetic diverse individuals. Unlik
 - Possibly find new therapeutic targets for different genetic pathways &rarr; supports precision medicine
 - Possibly improves gene-editing accuracy: If population-specific variations are accounted for, it could help create more accurate CRISPR machinery to target the correct regions
 ## What makes the T2T approach different from previous reference genome constructions?
-The T2T Consortium was the first to complete the human genome sequence in 2022, filling the roughly 8% that was missing from GRCh36. They did this by including telomeres, centromeres and highly repetitive regions. By providing a gapless reference, it enabled identification of variants in previously unresolvable regions.
+The T2T Consortium was the first to complete the human genome sequence in 2022, filling the roughly 8% that was missing from GRCh38. They did this by including telomeres, centromeres and highly repetitive regions. By providing a gapless reference, it enabled identification of variants in previously unresolvable regions.
