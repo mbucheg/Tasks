@@ -1,3 +1,4 @@
+#Notes on CNV Paper
 # 1. Why is important to construct a CNV map on health individuals of various ethnicities?
  (Introduction)  
 To represent the population as whole. capture maximum extent of variability
@@ -30,8 +31,11 @@ Stringent map (stringency level 12): at least two subjects and two studies
 Inclusive map: 9.5% (7.5 losses, 3.9 gains)
 Stringent map: 4.8% (3.6 losses, 2.3 gains)
 # 8. By your intuition, which kind of genes are more variable between protein-coding genes and non-coding genes? How about their findings in this paper? (Functional impact of CNV)
-
+The exons of non-coding genes had the highest proportion of CNV sequence, which is higher than the exons of protein-coding genes.
+- non-protein coding genes --> selective pressure is lower --> less variation tolerated in protein-coding genes: evolution strongly conserves these genes
+-  Non-coding genes play regulatory or structural roles: higher mutation tolerance, more variability
 # 9. The authors generated a null CNV map and found genes for which at least 85% of the exons were homozygous deleted. What are the functions of these genes? And why did the authors say that they seem to be non-essential? (Homozygous deleted genes)  
-
-# 10. If you are a medical doctor, how do you use this map as a tool to assess the clinical 
-importance of a CNV? (Clinical application of the CNV map part in Discussion)
+They are protein-coding genes --> have more gene family members, they may be redundant (14 have paralogues)
+some are described in OMIM as age-related phenotypes
+# 10. If you are a medical doctor, how do you use this map as a tool to assess the clinical importance of a CNV? (Clinical application of the CNV map part in Discussion)
+A CNV found in a patient that overlaps with any of these genes while not being found in the CNV map would suggest medical importance. CNVS that are associated with the more stringent gene sets (DECIPHER and embryonically lethal geness) --> have higher likelihood of pathogenicity
