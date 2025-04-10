@@ -1,9 +1,11 @@
 ## What is CNV/CNA? 
-Copy Number Variations/Copy Number aberrations: specific sequence repeats in the genome that vary between individuals. It is a form of structural variation and can be 
+Copy Number Variations/Copy Number aberrations: specific sequence repeats in the genome that vary between individuals. It is a form of structural variation and can be important in cancer development and progression.
 ## How will you describe or introduce progenetix (scale, data source, cancer types and so on)?
 
-## Describe NCIt, ICOD, UBERON codes, and their relationships.
-
+## Describe NCIt, ICDO, UBERON codes, and their relationships.
+NcIt: National Cancer Institute thesaurus
+ICDO:International Classification of Diseases in Oncology
+UBERON: Uber-anatomy ontology 
 ## What are CNV segmentations and CNV frequencies and how to use them?
 
 ## What are APIs and how to use APIs in progenetix?
