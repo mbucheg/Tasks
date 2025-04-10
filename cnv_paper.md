@@ -1,6 +1,8 @@
 1. Why is important to construct a CNV map on health individuals of various ethnicities?
  (Introduction)  
+To represent the population as whole.
 2. What is the CNV size that the authors defined? (Box 1 mentioned in introduction) 
+50 bp tp 3Mb
 Noted: The CNV size definition is still under debate and may be different in other literatures 
 3. What are the primary approaches used for CNV detection? And what are the advantages 
 and limitations of these technologies? (CNV discoveries)  
