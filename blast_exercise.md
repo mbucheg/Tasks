@@ -14,12 +14,13 @@
 Yes, a Spike glycoprotein
 
 ## 2. Use blast in Uniprot to search the unknown protein sequence
- • Select the most possible one among manually reviewed entries. What is its Uniprot ID? 
-• What protein does this sequence come from? 
-• Which organism does this sequence belong to? 
-• What is the function of this protein?
+ • Select the most possible one among manually reviewed entries. What is its Uniprot ID? P01116
+• What protein does this sequence come from? Ras protein
+• Which organism does this sequence belong to?  Homo Sapiens (Human)
+• What is the function of this protein? GTPase KRas, Ras proteins bind GDP/GTP and possess intrinsic GTPase activity. Plays an important role in the regulation of cell proliferation.
  • What is the variant associated with acute myeloid leukemia (AML) in this protein?
+ VAR_034601 -->G > GG
 ## 3. If you have more time, play around to feel the difference of blast service from different databases 
 For example,
- • Use Blast in NCBI to query the protein sequence
- • Use Blast in Uniprot to query the nucleotide sequenc
+ • Use Blast in NCBI to query the protein sequence --> same result
+ • Use Blast in Uniprot to query the nucleotide sequence --> same result
