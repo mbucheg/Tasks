@@ -9,7 +9,7 @@
  query cover: 100%
  E value: 0.0
  • Which region does this sequence cover the subject sequence? (The answer could be different which depends on the accession that you choose)
- • Is it DNA or RNA sequence? DNA
+ • Is it DNA or RNA sequence? RNA
  • Does it encode a (part of) protein? If yes, which protein? (Hint: use different blast type)
 Yes, a Spike glycoprotein
 
