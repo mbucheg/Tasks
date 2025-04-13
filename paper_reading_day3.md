@@ -26,8 +26,8 @@ Y-axis: Frequency (percentage of samples showing gain or loss at each position).
 
 
 
-Source for all the answers to the questions:
-Qingyao Huang, Paula Carrio-Cordo, Bo Gao, Rahel Paloots, Michael Baudis, The Progenetix oncogenomic resource in 2021, Database, Volume 2021, 2021, baab043, <https://doi.org/10.1093/database/baab043>
+Source for all the answers to the questions:\
+Qingyao Huang, Paula Carrio-Cordo, Bo Gao, Rahel Paloots, Michael Baudis, The Progenetix oncogenomic resource in 2021, Database, Volume 2021, 2021, baab043, <https://doi.org/10.1093/database/baab043> \
 Progenetix Website <https://progenetix.org/>
 
 
