@@ -14,7 +14,8 @@ CNV segmentations are great to analyse CNV data on the sample level, to see what
 CNV frequencies are beneficial to identify cancer types or subtypes, and are used to find specific CNV abundances in cancer.
 ## What are APIs and how to use APIs in progenetix?
 *Application Programming Interfaces:*
-"set of routines, protocols and tools that specifies how software components interact, to exchange data and processing capabilities" This is a way you can access databases. ~ Source: BIO390:Lecture 1 \
+"set of routines, protocols and tools that specifies how software components interact, to exchange data and processing capabilities" This is a way you can access databases. \
+~ Source: BIO390:Lecture 1 \
 One way Progenetix uses APIs is with **Beacon+ API**. With Beacon, which was created by the Global Alliance for Genomics & Health (GA4GH) to make genomic data discoverable via APIs. *bycon* is the open-source that then runs the APIs on the Progenetix website. Based on the Beacon v2 standard, Progenetix's API lets users search for variants, filter by cancer type etc and query by location. \
 Progenetix also has **Services API**, which also is built on *bycon*, but offers more specialized outputs like plots, convert biological names (like cytobands), get data about geographic locations (cities but also gene coordinates).\
 Beacon+ API is for structured genomic queries, whereas Services API is for utility and transformation tools.
