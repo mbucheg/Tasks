@@ -13,9 +13,8 @@ CNV frequencies give the count of how often aspecific genomic region is altered 
 CNV segmentations are great to analyse CNV data on the sample level, to see what genes are altered.
 CNV frequencies are beneficial to identify cancer types or subtypes, and are used to find specific CNV abundances in cancer.
 ## What are APIs and how to use APIs in progenetix?
-*Application Programming Interfaces*
-"API: set of routines, protocols and tools that specifies how software components interact, to exchange data and processing capabilities" This is a way you can access databases.
-Source: BIO390:Lecture 1 
+*Application Programming Interfaces:*
+"set of routines, protocols and tools that specifies how software components interact, to exchange data and processing capabilities" This is a way you can access databases. ~ Source: BIO390:Lecture 1 
 ## How does progenetix visualize CNA profiles?
 - CNV frequency plots using *pgxFreqplot* 
 X-axis: Genomic positions (organized by chromosome).
