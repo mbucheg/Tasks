@@ -4,9 +4,9 @@
 *Progenetix* is a derived database that focuses on CNVs and provides mutation data related to cancer. The individual sample data is curated from different sources, with the majority coming from genomic arrays from SNP platforms, as well as from CGH experiments and whole genome/exome sequencing (WGS/WES) studies. As of now, the database includes **156,871 samples** across **906 distinct cancer types**. This open resource offers key features such as local CNV aberrations, as 
 well as CNV cancer profiles and annotated references to research articles about cancer genome screening experiments.
 ## Describe NCIt, ICDO, UBERON codes, and their relationships.
-*NcIt: National Cancer Institute thesaurus*
-*ICDO:International Classification of Diseases in Oncology*
-*UBERON: Uber-anatomy ontology*
+*NcIt: National Cancer Institute thesaurus* \
+*ICD-O:International Classification of Diseases in Oncology* \
+*UBERON: Uber-anatomy ontology* \
 ## What are CNV segmentations and CNV frequencies and how to use them?
 - CNV segmentations represent regions of the genome that are consistently altered in copy number within individul samples. CNV segmentations are great to analyse CNV data on the sample level, to see what genes are altered.
 - CNV frequencies give the count of how often specific genomic regions are altered across many samples. CNV frequencies are valuable for identifying cancer types or subtypes and for detecting CNV alterations that are frequently observed in cancer.
@@ -30,6 +30,7 @@ Y-axis: Frequency (percentage of samples showing gain or loss at each position).
 
 Source for all the answers to the questions:\
 Qingyao Huang, Paula Carrio-Cordo, Bo Gao, Rahel Paloots, Michael Baudis, The Progenetix oncogenomic resource in 2021, Database, Volume 2021, 2021, baab043, <https://doi.org/10.1093/database/baab043> \
-Progenetix Website <https://progenetix.org/>
+Progenetix Website <https://progenetix.org/> \
+BIO 390: Introduction to Bioinformatics <https://compbiozurich.org/UZH-BIO390/>
 
 
