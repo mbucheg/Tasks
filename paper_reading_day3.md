@@ -14,16 +14,16 @@ well as CNV cancer profiles and annotated references to research articles about 
 *Application Programming Interfaces:*
 "set of routines, protocols and tools that specifies how software components interact, to exchange data and processing capabilities" This is a way you can access databases. \
 ~ Definition from BIO390:Lecture 1 \
-One way Progenetix uses APIs is with **Beacon+ API**. With Beacon, which was created by the Global Alliance for Genomics & Health (GA4GH) to make genomic data discoverable via APIs. *bycon* is the open-source that then runs the APIs on the Progenetix website. Based on the Beacon v2 standard, Progenetix's API lets users search for variants, filter by cancer type etc and query by location. \
+One way Progenetix uses APIs is with **Beacon+ API**. With Beacon, which was created by the Global Alliance for Genomics & Health (GA4GH) to make genomic data discoverable via APIs. *bycon* is the open-source that then runs the APIs on the Progenetix website. Based on the Beacon v2 standard, Progenetix's API lets users search for variants, filter by cancer type etc, query by location and many more things. \
 Progenetix also has **Services API**, which also is built on *bycon*, but offers more specialized outputs like plots, convert biological names (like cytobands), get data about geographic locations (cities but also gene coordinates).\
 Beacon+ API is for structured genomic queries, whereas Services API is for utility and transformation tools.
 
 ## How does progenetix visualize CNA profiles?
-- CNV frequency plots using *pgxFreqplot* 
-X-axis: Genomic positions (organized by chromosome).
-Y-axis: Frequency (percentage of samples showing gain or loss at each position).
-- Individual CNV profiles --> genome wide view for each biosample
-- Genomic CNA Matrix View --> Heatmaps showing CNAs across multiple samples.
+- CNV Histogram Plots  (which we could use in R using *pgxFreqplot*)
+    - X-axis are the genomic positions on the chromosome(s).
+    - Y-axis is the CNV frequency, so the percentage of samples showing gain (yellow) or loss (blue) at each X position.
+
+- additionally one could create heatmaps showing CNAs across multiple samples
 ## What do you think should be improved in progenetix?
 
 
