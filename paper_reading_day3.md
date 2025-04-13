@@ -6,7 +6,7 @@ well as CNV cancer profiles and annotated references to research articles about 
 ## Describe NCIt, ICDO, UBERON codes, and their relationships.
 *NcIt: National Cancer Institute thesaurus* \
 *ICD-O:International Classification of Diseases in Oncology* \
-*UBERON: Uber-anatomy ontology* \
+*UBERON: Uber-anatomy ontology* 
 ## What are CNV segmentations and CNV frequencies and how to use them?
 - CNV segmentations represent regions of the genome that are consistently altered in copy number within individul samples. CNV segmentations are great to analyse CNV data on the sample level, to see what genes are altered.
 - CNV frequencies give the count of how often specific genomic regions are altered across many samples. CNV frequencies are valuable for identifying cancer types or subtypes and for detecting CNV alterations that are frequently observed in cancer.
