@@ -8,10 +8,8 @@ well as CNV cancer profiles and annotated references to research articles about 
 *ICDO:International Classification of Diseases in Oncology*
 *UBERON: Uber-anatomy ontology*
 ## What are CNV segmentations and CNV frequencies and how to use them?
-CNV segmentations are regions of the genome that are consistently altered.
-CNV frequencies give the count of how often aspecific genomic region is altered across many samples.
-CNV segmentations are great to analyse CNV data on the sample level, to see what genes are altered.
-CNV frequencies are beneficial to identify cancer types or subtypes, and are used to find specific CNV abundances in cancer.
+- CNV segmentations represent regions of the genome that are consistently altered in copy number within individul samples. CNV segmentations are great to analyse CNV data on the sample level, to see what genes are altered.
+- CNV frequencies give the count of how often specific genomic regions are altered across many samples. CNV frequencies are valuable for identifying cancer types or subtypes and for detecting CNV alterations that are frequently observed in cancer.
 ## What are APIs and how to use APIs in progenetix?
 *Application Programming Interfaces:*
 "set of routines, protocols and tools that specifies how software components interact, to exchange data and processing capabilities" This is a way you can access databases. \
