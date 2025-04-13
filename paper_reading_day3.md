@@ -18,12 +18,15 @@ well as CNV cancer profiles and annotated references to research articles about 
 One way Progenetix uses APIs is with **Beacon+ API**. With Beacon, which was created by the Global Alliance for Genomics & Health (GA4GH) to make genomic data discoverable via APIs. *bycon* is the open-source that then runs the APIs on the Progenetix website. Based on the Beacon v2 standard, Progenetix's API lets users search for variants, filter by cancer type etc, query by location and many more things. \
 Progenetix also has **Services API**, which also is built on *bycon*, but offers more specialized outputs like plots, convert biological names (like cytobands), get data about geographic locations (cities but also gene coordinates).\
 Beacon+ API is for structured genomic queries, whereas Services API is for utility and transformation tools.
-
 ## How does Progenetix visualize CNA profiles?
-- CNV Histogram Plots  (which we could use in R using *pgxFreqplot*)
-    - X-axis are the genomic positions on the chromosome(s).
-    - Y-axis is the CNV frequency, so the percentage of samples showing gain (yellow) or loss (blue) at each X position.
-- additionally one could create heatmaps showing CNAs across multiple samples
+- CNV Histogram Plots: These plots display copy number variation (CNV) frequencies across genomic regions.
+    - The x-axis represents the genomic positions on the chromosome(s).
+    - The y-axis represents the CNV frequency, so the percentage of samples showing gain (yellow) or loss (blue) at each x position.
+    - You can generate these plots for:
+        - a specific gene of interest (to explore CNVs affecting that gene)
+        -  A cancer type or subtype (to identify common alterations across a cohort)
+    - In R, the function pgxFreqplot() from the *pgxRpi* package can generate equivalent plots.
+- Additionally, Progenetix also makes Sample Strip Plots. These plots display individual sample CNV profiles, with each strip representing a single sample.
 ## What do you think should be improved in Progenetix?
 - In general, creating additional CNV visualizations—such as clustering maps to explore CNV patterns across different cancer types—would be valuable and interesting.
 - Including transcriptomic and methylation data could improve the interpretation of CNVs and help connect findings to epigenetic mechanisms.
