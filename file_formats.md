@@ -10,16 +10,12 @@
 ## Storage Estimates
 
 ### WGS vs WES (Per Genome)
-| Type | BAM      | VCF      | FASTQ      | Total (approx.) |
-|------|----------|----------|------------|-----------------|
-| WGS  | 100  GB  |   1 GB   |  80  GB    |     ~180 GB     |
-| WES  |   8  GB  | 0.1 GB   |  5   GB    |      ~12 GB     |
+| Type | BAM      | VCF      | FASTQ      | Total (approx.) | Multiply by 1000 genomes: |
+|------|----------|----------|------------|-----------------|---------------------------|
+| WGS  | 100  GB  |   1 GB   |  80  GB    |     ~180 GB     |           ~180 TB         |
+| WES  |   8  GB  | 0.1 GB   |  5   GB    |      ~12 GB     |           ~12 TB          |
 
-> Multiply by 1000 genomes:
-- **WGS**: ~180 TB
-- **WES**: ~12 TB
-
- • Associated costs
+• Associated costs
   • Cost factors
   • Raw Storage costs
  • Familiarize with VCF format
