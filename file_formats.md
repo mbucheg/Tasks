@@ -12,12 +12,12 @@
 ### WGS vs WES (Per Genome)
 | Type | BAM      | VCF      | FASTQ      | Total (approx.) |
 |------|----------|----------|------------|-----------------|
-| WGS  | 100  GB  | 1  GB    | 80  GB     |     ~181 GB     |
-| WES  |  8  GB   | 0.1  GB  |  5  GB     |     ~12.1 GB    |
+| WGS  | 100  GB  |   1 GB   |  80  GB    |     ~180 GB     |
+| WES  |   8  GB  | 0.1 GB   |  5   GB    |      ~12 GB     |
 
 > Multiply by 1000 genomes:
-- **WGS**: ~226 TB
-- **WES**: ~35 TB
+- **WGS**: ~180 TB
+- **WES**: ~12 TB
 
  • Associated costs
   • Cost factors
