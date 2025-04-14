@@ -2,7 +2,7 @@
  How much computer storage is required for 1000 Genomes? What are the associated costs?
  Please provide 1 page size estimates and reasoning for the use of the different file types (i.e. which would you use for storing called variants, which for full archival purposes, browser visualisation), for 3-5 formats. \
  • WES & WGS: Whole Exome Sequencing/Whole Genome Sequencing \
-**_ Different file formats _**\
+** Different file formats ** \
    • SAM: Sequence Alignment/Map \
    • BAM: Binary Version of SAM \
    • VCF: Variant Call Format \
