@@ -27,15 +27,19 @@
   - Indexing (Generating .bai (BAM index) or .tbi (VCF index) file)
   - Compute resources for analysis: align sequences, call variants, annotate data, 
   - Security, Access control: encryption and private access
-
-VCF: storage of genome variants &rarr store variant results, as well as good archival use and display of annotated variants \
-SAM: text-based alignment &rarr store mapping information for sequences only temporarily, not used as a storage format as it is much more bigger than BAM, not ideal for browser visualization \
-BAM:  Binary version of SAM, compressed &rarr for storage, archival purposes and browser visualization \
-FASTA:  storing and exchanging sequence data &rarr raw data archive \
-FASTQ:contains raw sequencing reads + quality stores of the nucleotides &rarr archival use, too raw for browsers \
+    
+## File format purposes
+- VCF: storage of genome variants &rarr store variant results, as well as good archival use and display of annotated variants \
+- SAM: text-based alignment &rarr store mapping information for sequences only temporarily, not used as a storage format as it is much more bigger than BAM, not - ideal for browser visualization \
+- BAM:  Binary version of SAM, compressed &rarr for storage, archival purposes and browser visualization \
+- FASTA:  storing and exchanging sequence data &rarr reference data storage, archival use and browser visualization of references \
+- FASTQ:contains raw sequencing reads + quality stores of the nucleotides &rarr archival use, too raw for browsers \
  
 ## Sources:  
 File sizes: <https://3billion.io/blog/big-data-among-big-data-genome-data> \
 Costs: Niklas Krumm, Noah Hoffman, Practical Cost Analysis of Genomic Data in the Cloud, American Journal of Clinical Pathology, Volume 152, Issue Supplement_1, October 2019, Pages S2–S3, <https://doi.org/10.1093/ajcp/aqz112.004> \
 Access tiers: Access tiers for blob data, <https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview> \
 Genomic Data Storage in Azure: Basic Compression for Mapped Sequencing Data <https://techcommunity.microsoft.com/blog/healthcareandlifesciencesblog/genomic-data-storage-in-azure-basic-compression-for-mapped-sequencing-data/3721670>
+File Format purposes: BIO 390 Introduction to Bioinformatics: <https://compbiozurich.org/UZH-BIO390/>
+SAM, BAM, CRAM, FASTA, and FASTQ Data Formats Explained: <https://www.nutrahacker.com/nutrahacker_university/en/whole-genome-sequencing-data-formats.php> \
+Your Essential Guide to Different File Formats in Bioinformatics: <https://www.formbio.com/blog/your-essential-guide-different-file-formats-bioinformatics?>
