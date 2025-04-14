@@ -18,15 +18,21 @@
 • Associated costs
   • Cost factors
   • Raw Storage costs
+
+ Google cloud (not recommended): 0.025 $ per GB per month in Zurich * 200'000 GB = 5000 $ for ~ 200 TB
  • Familiarize with VCF format
  ➡specification in article collection
 Please provide 1 page size estimates and reasoning for the use of the different file types (i.e. which would you use for storing called variants, which for full archival purposes, browser visualisation), for 
 3-5 formats. Submit your files (.md) per pull request to your Github directory.
+VCF: for stoage of genome variants
+BAM: archival purposes and browser visualization
+
+
 
 Source: 
 VCF <https://sequencing.com/blog/post/how-to-use-genome-sequencing-data-files?utm_source=chatgpt.com>
 BAM size: <https://www.strand-ngs.com/support/ngs-data-storage-requirements>
 COST BAM: <https://techcommunity.microsoft.com/blog/healthcareandlifesciencesblog/genomic-data-storage-in-azure-basic-compression-for-mapped-sequencing-data/3721670>
 FASTA size: <https://biowize.wordpress.com/2012/04/27/can-i-estimate-genome-size-from-the-size-of-the-fasta-file/>
-
+Google Cloud: <https://cloud.google.com/storage/pricing?utm_source=chatgpt.com&hl=de#europe>
 all: <https://3billion.io/blog/big-data-among-big-data-genome-data>
