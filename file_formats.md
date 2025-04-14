@@ -25,7 +25,7 @@
   - Access speed (cold vs. hot storage): hot = frequently accessed data, higher storage cost than cold/archival storage
   - Retrieval (egress), if on cloud: cost to download files from cloud, higher for cold storage, lower for hot storage
   - Indexing (Generating .bai (BAM index) or .tbi (VCF index) file)
-  - Compute resources for analysis: align sequences, call variants, annotate data, 
+  - Compute resources for analysis: align sequences, call variants, annotate data
   - Security, Access control: encryption and private access
     
 ## File format purposes
