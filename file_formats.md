@@ -10,10 +10,10 @@
 ## Storage Estimates
 
 ### WGS vs WES (Per Genome)
-| Type | BAM (GB) | VCF (GB) | FASTQ (GB) | Total (approx.) |
+| Type | BAM      | VCF      | FASTQ      | Total (approx.) |
 |------|----------|----------|------------|-----------------|
-| WGS  | 100      | 1        | 80         |     ~181 GB     |
-| WES  |  8       | 0.1      |  5         |     ~12.1 GB    |
+| WGS  | 100  GB  | 1  GB    | 80  GB     |     ~181 GB     |
+| WES  |  8  GB   | 0.1  GB  |  5  GB     |     ~12.1 GB    |
 
 > Multiply by 1000 genomes:
 - **WGS**: ~226 TB
