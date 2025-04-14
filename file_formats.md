@@ -3,10 +3,10 @@
  Please provide 1 page size estimates and reasoning for the use of the different file types (i.e. which would you use for storing called variants, which for full archival purposes, browser visualisation), for 3-5 formats. \
  • WES & WGS: Whole Exome Sequencing/Whole Genome Sequencing \
  • Different file formats\
-  • SAM: Sequence Alignment/Map \
-  • BAM: Binary Version of SAM \
-  • VCF: Variant Call Format \
-  • FASTA: Fast-All or originally Fast Alignment Search Tool – A \
+   • SAM: Sequence Alignment/Map \
+   • BAM: Binary Version of SAM \
+   • VCF: Variant Call Format \
+   • FASTA: Fast-All or originally Fast Alignment Search Tool – A \
 
 ## Storage Estimates
 
