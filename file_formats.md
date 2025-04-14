@@ -19,12 +19,13 @@
   • Cost factors
   • Raw Storage costs
 
- Google cloud (not recommended): 0.025 $ per GB per month in Zurich * 200'000 GB = 5000 $ for ~ 200 TB
+-  Google cloud (not recommended): 0.025 $ per GB per month in Zurich * 200'000 GB = 5000 $ for ~ 200 TB
+-  I found a NAS(Network attached storage) with 200TB for 7300 euros. See link: <https://anynas.de/nas-systeme/asustor/10-bay/asustor-as7110t/230084/asustor-as7110t-10-bay-200tb-bundle-mit-10x-20tb-ironwolf-pro-st20000nt001>
  • Familiarize with VCF format
  ➡specification in article collection
 Please provide 1 page size estimates and reasoning for the use of the different file types (i.e. which would you use for storing called variants, which for full archival purposes, browser visualisation), for 
 3-5 formats. Submit your files (.md) per pull request to your Github directory.
-VCF: for stoage of genome variants
+VCF: for storage of genome variants
 BAM: archival purposes and browser visualization
 
 
