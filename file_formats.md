@@ -14,7 +14,7 @@
 | Type | BAM      | VCF      | FASTQ      | Total (approx.) | Multiply by 1000 genomes: |
 |------|----------|----------|------------|-----------------|---------------------------|
 | WGS  | 100  GB  |   1 GB   |  80  GB    |     ~180 GB     |           ~180 TB         |
-| WES  |   8  GB  | 0.1 GB   |  5   GB    |      ~12 GB     |           ~12 TB          |
+| WES  |   8  GB  | 0.1 GB   |  5   GB    |      ~13 GB     |           ~13 TB          |
 
 • Associated costs
   • Cost factors
