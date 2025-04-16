@@ -17,6 +17,12 @@ However, if the FastQC reports show quality scores in the red area it would make
 ### Q3
 **Why are so many files in the bioinformatics pipeline compressed and indexed?**
 Compression reduces the size of the FASTA files, so they are easier to store, transfer and use.
+Indexing allows for easier access of the data, which is very useful for large-scale genome analysis. 
+.fai: is FASTA index file, sequences are then easy to retrieve quickly, has the position of each sequence
+.fa.bwt: is a Burrows-Wheeler Transform (BWT) index file, transforms reference genome for faster queries
+.fa.amb/.fa.ann: are files associated with BWT that contains metadata needed for efficient mapping/alignment.
+.fa.pac: stores the prefix array, storing suffixes of the reference genome, for faster sequence retrieval
+.fa.bwt.2bit.64: is a 2-bit encoding of the genome, reduces space required ot store the reference genome
 
 ### Q4
 **In the bash script that processes alignment files, you will see calls to samtools sort, samtools view, and samtools index (among others). Explain what these three programs do. Why do you think each program is needed?**
