@@ -7,7 +7,7 @@ These questions will be graded. The most important thing is not that you get eve
 
 ### Q1
 **Does the sequence quality graph of your data look different from the examples shown in the slides? Are there any adapter sequences in the data? Why do you think this is?**
-Given the data is simulated, the sequence quality graph does not show up for us in FASTQC. As discusses in plenum, we cannot answer Q1 or Q2
+Given the data is simulated, the sequence quality graph does not show up for us in FASTQC. As discusses in plenum, we cannot answer Q1 or Q2.
 
 ### Q2
 **Given the FastQC reports, does it make sense to perform adapter and/or quality-trimming on your data?**
@@ -27,12 +27,16 @@ Indexing allows for easier access of the data, which is very useful for large-sc
 ### Q4
 **In the bash script that processes alignment files, you will see calls to samtools sort, samtools view, and samtools index (among others). Explain what these three programs do. Why do you think each program is needed?**
 *Hint: look at the [Samtools manual](http://www.htslib.org/doc/samtools.html)*.
-Your answer here
+
 
 ### Q5
 **Explain what files are needed for GangSTR to run. Specifically: explain what information is provided to GangSTR via the --ref, --region, and --bam command line arguments.**
 *Hint: look at the [GangSTR manual](https://github.com/gymreklab/gangstr).*
-Your answer here
+- BAM files that are comma separated lists -> to use as INPUT, .bam
+- FASTA file for the reference genome -> .fa
+- BED file containinng TR coordinates -> .bed
+- Prefix -> to name output files
+
 
 ## Literature
 During the practical so far, you have generated variant calls from short read sequencing data using bioinformatics approaches. Now it's time to take a step back and do some background reading in order to prepare for the analysis and interpretation of the results next week. 
