@@ -6,8 +6,8 @@ These questions will be graded. The most important thing is not that you get eve
 ## Practical
 
 ### Q1
-**Does the sequence quality graph of your data look different from the examples shown in the slides? Are there any adapter sequences in the data? Why do you think this is?**
-Given the data is simulated, the sequence quality graph does not show up for us in FASTQC. As discusses in plenum, we cannot answer Q1 or Q2.
+**Does the sequence quality graph of your data look different from the examples shown in the slides? Are there any adapter sequences in the data? Why do you think this is?** \
+Given the data is simulated, the sequence quality graph does not show up for us in FASTQC. As discussed in plenum, we cannot answer Q1 or Q2.
 
 ### Q2
 **Given the FastQC reports, does it make sense to perform adapter and/or quality-trimming on your data?**
