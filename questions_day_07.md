@@ -15,7 +15,7 @@ Since we cannot see the sequence quality, we cannot answer this question.
 However, if the FastQC reports show quality scores in the red area it would make snese to trim our data to remove those reads (that are usually very long).
 
 ### Q3
-**Why are so many files in the bioinformatics pipeline compressed and indexed?**
+**Why are so many files in the bioinformatics pipeline compressed and indexed?**\
 Compression reduces the size of the FASTA files, so they are easier to store, transfer and use. \
 Indexing allows for easier access of the data, which is very useful for large-scale genome analysis. \ 
 .fai: is FASTA index file, sequences are then easy to retrieve quickly, has the position of each sequence \
@@ -53,15 +53,18 @@ First, read the following sections of [this review](https://www.sciencedirect.co
 * Abstract
 * Introduction``
 * Genotyping STRs from high-throughput sequencing data
-Then, answer Q4 and Q5.
+Then, answer Q6 and Q7.
 
 ### Q6
 **Why is STR variation relevant to health and disease?**
-Your answer here
+STRs make up approximately 3% of the human genome and contribute significantly to human genetic variation due to their high mutation rates.
+STRs are also implicated in various diseases. One well-known example is Fragile X syndrome, which is caused by trinucleotide repeat expansions.
+STRs can influence phenotypes through multiple mechanisms, including effects on gene function and regulation (such as DNA hypermethylation and transcription factor binding) as well as through transcribed and translated repeat elements: for instance, impacting alternative splicing, or leading to toxic RNA and protein aggregates.
+
 
 ### Q7
 **What are some of the challenges in analysing STRs from NGS data?**
-Your answer here
+The number of informative reads is reduced due to the fact that short reads often do not span entire repeats. Additionally, STR variations can have large INDELs that can be hard to align to a reference genome.
 
 Second, read the following sections of the [paper describing GangSTR](https://academic.oup.com/nar/article/47/15/e90/5518310):
 * Abstract
