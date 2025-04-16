@@ -22,19 +22,21 @@ Indexing allows for easier access of the data, which is very useful for large-sc
 .fa.bwt: is a Burrows-Wheeler Transform (BWT) index file, transforms reference genome for faster queries \
 .fa.amb/.fa.ann: are files associated with BWT that contains metadata needed for efficient mapping/alignment. \
 .fa.pac: stores the prefix array, storing suffixes of the reference genome, for faster sequence retrieval \
-.fa.bwt.2bit.64: is a 2-bit encoding of the genome, reduces space required ot store the reference genome \
+.fa.bwt.2bit.64: is a 2-bit encoding of the genome, reduces space required ot store the reference genome 
+Source: <https://www.bsiranosian.com/bioinformatics/why-are-bioinformatics-workflows-different/#:~:text=Most%20genomic%20data%20is%20stored%20in%20large%20compressed,files%20as%20inputs%20and%20produce%20files%20as%20outputs.> \
+<https://genome.ucsc.edu/FAQ/FAQformat.html>
 
 ### Q4
 **In the bash script that processes alignment files, you will see calls to samtools sort, samtools view, and samtools index (among others). Explain what these three programs do. Why do you think each program is needed?**
 *Hint: look at the [Samtools manual](http://www.htslib.org/doc/samtools.html)*.
 - sort: sorts alignments in a BAM file by genomic coordinates --> this makes an ordered BAM
-- view: converts all alignments in files like (BAM or CRAM) to a standard output in SAM format.
+- view: converts all alignments in files like (BAM or CRAM) to a standard output in SAM format, or vice versa.
 - index: creates a .bai index file, which enables random access to specific genomic regions
-Why all three are needed:\
+Why all three are needed:
 1. You first align reads to get a raw SAM or BAM file.
 2. Then you use samtools view to convert SAM to BAM.
-3. You use samtools sort to order the BAM by genomic coordinate.
-4. You use samtools index to build a .bai index, enabling fast lookups.
+3. Then you use samtools sort to order the BAM by genomic coordinate.
+4. Finally you use samtools index to build a .bai index, enabling fast lookups.
 
 ### Q5
 **Explain what files are needed for GangSTR to run. Specifically: explain what information is provided to GangSTR via the --ref, --region, and --bam command line arguments.**
