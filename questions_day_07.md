@@ -27,7 +27,14 @@ Indexing allows for easier access of the data, which is very useful for large-sc
 ### Q4
 **In the bash script that processes alignment files, you will see calls to samtools sort, samtools view, and samtools index (among others). Explain what these three programs do. Why do you think each program is needed?**
 *Hint: look at the [Samtools manual](http://www.htslib.org/doc/samtools.html)*.
-
+- sort: sorts alignments in a BAM file by genomic coordinates --> this makes an ordered BAM
+- view: converts all alignments in files like (BAM or CRAM) to a standard output in SAM format.
+- index: creates a .bai index file, which enables random access to specific genomic regions
+Why all three are needed:\
+1. You first align reads to get a raw SAM or BAM file.
+2. Then you use samtools view to convert SAM to BAM.
+3. You use samtools sort to order the BAM by genomic coordinate.
+4. You use samtools index to build a .bai index, enabling fast lookups.
 
 ### Q5
 **Explain what files are needed for GangSTR to run. Specifically: explain what information is provided to GangSTR via the --ref, --region, and --bam command line arguments.**
@@ -36,7 +43,6 @@ Indexing allows for easier access of the data, which is very useful for large-sc
 - FASTA file for the reference genome -> .fa
 - BED file containinng TR coordinates -> .bed
 - Prefix -> to name output files
-
 
 ## Literature
 During the practical so far, you have generated variant calls from short read sequencing data using bioinformatics approaches. Now it's time to take a step back and do some background reading in order to prepare for the analysis and interpretation of the results next week. 
