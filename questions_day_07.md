@@ -7,15 +7,16 @@ These questions will be graded. The most important thing is not that you get eve
 
 ### Q1
 **Does the sequence quality graph of your data look different from the examples shown in the slides? Are there any adapter sequences in the data? Why do you think this is?**
-Your answer here
+Given the data is simulated, the sequence quality graph does not show up for us in FASTQC. As discusses in plenum, we cannot answer Q1 or Q2
 
 ### Q2
 **Given the FastQC reports, does it make sense to perform adapter and/or quality-trimming on your data?**
-Your answer here
+Since we cannot see the sequence quality, we cannot answer this question. 
+However, if the FastQC reports show quality scores in the red area it would make snese to trim our data to remove those reads (that are usually very long).
 
 ### Q3
 **Why are so many files in the bioinformatics pipeline compressed and indexed?**
-Your answer here
+Compression reduces the size of the FASTA files, so they are easier to store, transfer and use.
 
 ### Q4
 **In the bash script that processes alignment files, you will see calls to samtools sort, samtools view, and samtools index (among others). Explain what these three programs do. Why do you think each program is needed?**
