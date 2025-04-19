@@ -22,7 +22,7 @@ Indexing allows for easier access of the data, which is very useful for large-sc
 .fa.bwt: is a Burrows-Wheeler Transform (BWT) index file, transforms reference genome for faster queries \
 .fa.amb/.fa.ann: are files associated with BWT that contains metadata needed for efficient mapping/alignment. \
 .fa.pac: stores the prefix array, storing suffixes of the reference genome, for faster sequence retrieval \
-.fa.bwt.2bit.64: is a 2-bit encoding of the genome, reduces space required ot store the reference genome 
+.fa.bwt.2bit.64: is a 2-bit encoding of the genome, reduces space required ot store the reference genome \
 Source: <https://www.bsiranosian.com/bioinformatics/why-are-bioinformatics-workflows-different/#:~:text=Most%20genomic%20data%20is%20stored%20in%20large%20compressed,files%20as%20inputs%20and%20produce%20files%20as%20outputs.> \
 <https://genome.ucsc.edu/FAQ/FAQformat.html>
 
