@@ -56,14 +56,14 @@ First, read the following sections of [this review](https://www.sciencedirect.co
 Then, answer Q6 and Q7.
 
 ### Q6
-**Why is STR variation relevant to health and disease?**
+**Why is STR variation relevant to health and disease?** \
 STRs make up approximately 3% of the human genome and contribute significantly to human genetic variation due to their high mutation rates.
 STRs are also implicated in various diseases. One well-known example is Fragile X syndrome, which is caused by trinucleotide repeat expansions.
 STRs can influence phenotypes through multiple mechanisms, including effects on gene function and regulation (such as DNA hypermethylation and transcription factor binding) as well as through transcribed and translated repeat elements: for instance, impacting alternative splicing, or leading to toxic RNA and protein aggregates.
 
 
 ### Q7
-**What are some of the challenges in analysing STRs from NGS data?**
+**What are some of the challenges in analysing STRs from NGS data?** \
 The number of informative reads is reduced due to the fact that short reads often do not span entire repeats. Additionally, STR variations can have large INDELs that can be hard to align to a reference genome.
 
 Second, read the following sections of the [paper describing GangSTR](https://academic.oup.com/nar/article/47/15/e90/5518310):
@@ -73,9 +73,12 @@ Second, read the following sections of the [paper describing GangSTR](https://ac
 Then, answer Q6 and Q7.
 
 ### Q8
-**What sets GangSTR apart from other STR genotyping tools?**
-Your answer here
+**What sets GangSTR apart from other STR genotyping tools?** \
+GangSTR can genotype both short and expanded tandem repeats (TRs), whereas most next generation sequencing (NGS) are incapable of capturing highly repetitive regions of the genome. It takes information from paired-end reads and bringts them into a unified model to estimate maximum likelikhood TR lengths. According to the article, GangSTR outperforms other methods in accuracy and speed.
+HipSTR:
+exSTRa:
+Long read technologies (Third generation sequencing):
 
 ### Q9
-**What types of information does GangSTR use for STR genotyping?**
+**What types of information does GangSTR use for STR genotyping?** <
 Your answer here
