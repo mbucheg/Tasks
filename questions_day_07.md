@@ -58,13 +58,14 @@ Then, answer Q6 and Q7.
 ### Q6
 **Why is STR variation relevant to health and disease?** \
 STRs make up approximately 3% of the human genome and contribute significantly to human genetic variation due to their high mutation rates.
-STRs are also implicated in various diseases. One well-known example is Fragile X syndrome, which is caused by trinucleotide repeat expansions.
-STRs can influence phenotypes through multiple mechanisms, including effects on gene function and regulation (such as DNA hypermethylation and transcription factor binding) as well as through transcribed and translated repeat elements: for instance, impacting alternative splicing, or leading to toxic RNA and protein aggregates.
+STRs are also connected to various diseases. One well-known example is Fragile X syndrome, which is caused by trinucleotide repeat expansions.
+STRs can influence phenotypes through multiple mechanisms, including effects on gene function and regulation (such as DNA hypermethylation and transcription factor binding) as well as through transcribed and translated repeat elements: for instance, impacting alternative splicing, or leading to toxic RNA and protein aggregates. 
 
 
 ### Q7
 **What are some of the challenges in analysing STRs from NGS data?** \
-The number of informative reads is reduced due to the fact that short reads often do not span entire repeats. Additionally, STR variations can have large INDELs that can be hard to align to a reference genome.
+STRs are often longer than standard read lengths, which reduces the number of informative reads, as short reads often do not span the entire repeat region. Additionally, STR variations can involve large insertions or deletions (INDELs), which are difficult to align accurately to a reference genome, increasing mapping bias toward shorter alleles. As with any PCR amplification, stutter noise can occur, leading to incorrect estimation of repeat lengths.
+
 
 Second, read the following sections of the [paper describing GangSTR](https://academic.oup.com/nar/article/47/15/e90/5518310):
 * Abstract
@@ -84,7 +85,7 @@ ExpansionHunter: less accurate when both alleles are close in size or longer tha
 Long-read technologies (third-generation sequencing): lower per-base accuracy, higher indel rates, and higher cost. 
 
 ### Q9
-**What types of information does GangSTR use for STR genotyping?** <
+**What types of information does GangSTR use for STR genotyping?** \
 GangSTR requires sequence alignments and a tandem repeat (TR) reference set to estimate diploid repeat lengths as the output. GangSTR utilizes paired-end sequencing reads to inform its genotyping model. Paired-end reads are categorized into four classes: enclosing read pairs, spanning read pairs, flanking read pairs, and fully repetitive read pairs.
 - Enclosing reading pairs: contain the entire TR + flanking regions
 - Spanning reading paris: each read maps to opposite flanks of the STR, which indicates distance and expansion
