@@ -79,7 +79,7 @@ GangSTR, a novel method for genome-wide analysis, can genotype both short and ex
 
 Comparison with other tools mentioned in the paper: \
 exSTRa: does not estimate repeat length, which is important for assessing disease severity. \
-STRetch: cannot analyze short TRs (with motifs up to 6 bp).\ 
+STRetch: cannot analyze short TRs (with motifs up to 6 bp). \ 
 Tredparse: cannot estimate repeat lengths longer than the sequencing fragment length and does not scale to genome-wide analysis. \
 ExpansionHunter: less accurate when both alleles are close in size or longer than the fragment length; does not scale well genome-wide. \
 Long-read technologies (third-generation sequencing): lower per-base accuracy, higher indel rates, and higher cost. 
