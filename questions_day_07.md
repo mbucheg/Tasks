@@ -74,11 +74,20 @@ Then, answer Q6 and Q7.
 
 ### Q8
 **What sets GangSTR apart from other STR genotyping tools?** \
-GangSTR can genotype both short and expanded tandem repeats (TRs), whereas most next generation sequencing (NGS) are incapable of capturing highly repetitive regions of the genome. It takes information from paired-end reads and bringts them into a unified model to estimate maximum likelikhood TR lengths. According to the article, GangSTR outperforms other methods in accuracy and speed.
-HipSTR:
-exSTRa:
-Long read technologies (Third generation sequencing):
+GangSTR, a novel method for genome-wide analysis, can genotype both short and expanded tandem repeats (TRs) using next-generation sequencing (NGS) data. Unlike many existing tools, GangSTR is not limited by sequencing fragment length and is capable of accurately analyzing highly repetitive regions of the genome. It leverages information from multiple classes of paired-end reads and integrates them into a unified model to estimate maximum likelihood TR lengths. According to the paper, GangSTR achieves higher accuracy and  greater speed than other tools.
+
+Comparison with other tools mentioned in the paper: \
+exSTRa: does not estimate repeat length, which is important for assessing disease severity. \
+STRetch: cannot analyze short TRs (with motifs up to 6 bp).\ 
+Tredparse: cannot estimate repeat lengths longer than the sequencing fragment length and does not scale to genome-wide analysis. \
+ExpansionHunter: less accurate when both alleles are close in size or longer than the fragment length; does not scale well genome-wide. \
+Long-read technologies (third-generation sequencing): lower per-base accuracy, higher indel rates, and higher cost. 
 
 ### Q9
 **What types of information does GangSTR use for STR genotyping?** <
-Your answer here
+GangSTR requires sequence alignments and a tandem repeat (TR) reference set to estimate diploid repeat lengths as the output. GangSTR utilizes paired-end sequencing reads to inform its genotyping model. Paired-end reads are categorized into four classes: enclosing read pairs, spanning read pairs, flanking read pairs, and fully repetitive read pairs.
+- Enclosing reading pairs: contain the entire TR + flanking regions
+- Spanning reading paris: each read maps to opposite flanks of the STR, which indicates distance and expansion
+- Flanking reading pairs: partly overlap the repeat and give insight into its boundaries.
+- Fully repetitive pairs: consist entirely of repeat sequence, which help detect larger expansions.
+
