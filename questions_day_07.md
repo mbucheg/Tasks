@@ -10,8 +10,8 @@ These questions will be graded. The most important thing is not that you get eve
 Given the data is simulated, the sequence quality graph does not show up for us in FASTQC. As discussed in plenum, we cannot answer Q1 or Q2.
 
 ### Q2
-**Given the FastQC reports, does it make sense to perform adapter and/or quality-trimming on your data?**
-Since we cannot see the sequence quality, we cannot answer this question. 
+**Given the FastQC reports, does it make sense to perform adapter and/or quality-trimming on your data?** \
+Since we cannot see the sequence quality, we cannot answer this question. \
 However, if the FastQC reports show quality scores in the red area it would make snese to trim our data to remove those reads (that are usually very long).
 
 ### Q3
