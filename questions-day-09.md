@@ -8,21 +8,33 @@ These questions will be graded. The most important thing is not that you get eve
 * CHROM: Which chromosome are we on? It is identified via the reference genome.
   Chromosome 5
 * POS: Which position contains a variant?
-  Position chr5.106700
-* REF: What is the nucleotide in the reference genome? A ‘.’ means there is no variant.  
-* ALT: What is the alternate allele of our sequence at this position? 
+ 1. Position 5:106700
+ 2. Position 5:137481
+* REF: What is the nucleotide in the reference genome? A ‘.’ means there is no variant.
+  1. a
+  2. a
+* ALT: What is the alternate allele of our sequence at this position?
+  1. aa
+  2. agagagaga
 
 ### Q2
 **Using these four columns, how could you determine whether a sequencing sample contains a variant?**
 * Check the ALT column and see which nucleotide is noted there.  
-* To double-check you compare it with the base in the 	REF column.
+* To double-check you compare it with the base in the	REF column.
+  If there's a nucleotide in the ALT column, then that would suggest there is a variant for that specific sequencing sample.
+  For patient 1, we find the 1st position from the last question that changes a>aa when there's a "1/1" in the patient 1 column
+  For patient 3, it's the 2nd position from the last question that changes a>agagagaga.
 
 ### Q3
 **After loading all the files into IGV, there should be four different kind of tracks. Briefly explain what type of information each track contains**
 * We have the tracks with the alignments of each patient. We see the different reads and their associated information when we click on them (read name, alignment start and map quality). At the top of each alignment we see a profile which could be the coverage of each base.
 * We also have one track that represents the gene, with information on the source and the location on the chromosome that we are at. 
 * Another one representing the transcript.
-* And the last one “merged_results.vcf” contains the variant information for each patient.  
+* And the last one “merged_results.vcf” contains the variant information for each patient.
+- Patient tracks: Each patient shows the aligned reads from the corresponding BAM file. When it's grey, this means it aligns with the reference genome. The first line of the track that spans the whole chromosome with different levels is the coverage track, so how many reads cover each base.
+- Gene track: is the gene (in this case canonical APC from the WNT signaling pathway), which gives its location.
+- Variant track: has 4 different "rows" one for the reference, and the other three for the patients. This displays the different STRs in dark blue, and most importantly the variants we're interested in turquoise. The variant then shows us the genotype and zygosity.
+- Transcript track: transcript reference strand
 
 ### Q4
 **Based on the VEP output, which of the STR variants you identified do you expect to have the most impact? Why?**
