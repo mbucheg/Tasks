@@ -52,9 +52,9 @@ BCH 252: RNA and Proteins, Lecture 6: mRNA Degradation, Nonsense Mediated DEcay,
 
 ### Q5
 **What phenotype or disease do you expect this variant to be involved with?**
-APC is a tumor suppressor gene, which is usually a negative regulator in Wnt signaling pathway. 
-If this variant creates frameshifts, this could cause a problem of regulating the Wnt signaling pathway, as this is important for embryonic development, stem cell maintenance as well as organ and tissue (re-)generation. If the negative regulator protein is truncated and nonfunctional or gets degarded by NMD, then this makes the Wnt signaling pathway not controlled anymore, this could cause the stem cell maintenance to not be in control anymore, causing uncontrolled proliferation and thus abnormal cell growth, like cancer.
-
+APC is a tumor suppressor gene and functions as a negative regulator of the Wnt signaling pathway. \
+If a variant introduces a frameshift, it could disrupt APC’s function, impairing its ability to regulate Wnt signaling. This pathway is important for embryonic development, stem cell maintenance, and tissue and organ regeneration. \
+A truncated, nonfunctional APC protein—or one degraded by nonsense-mediated decay (NMD)—would result in loss of regulation. This can lead to uncontrolled Wnt signaling, which may cause excessive stem cell proliferation and ultimately contribute to abnormal cell growth and cancer.
 
 Sources \
 Rim, E. Y., Clevers, H., & Nusse, R. (2022). The Wnt Pathway: From Signaling Mechanisms to Synthetic Modulators. Annual Review of Biochemistry, 91, 571-598. [link = https://doi.org/10.1146/annurev-biochem-040320-103615] \
