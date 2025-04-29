@@ -34,15 +34,28 @@ These questions will be graded. The most important thing is not that you get eve
 * And the last one “merged_results.vcf” contains the variant information for each patient.
   
 - *Patient tracks*: Each patient shows the aligned reads from the corresponding BAM file. When it's grey, this means it aligns with the reference genome. The first line of the track that spans the whole chromosome with different levels is the coverage track, so how many reads cover each base.
-- *Gene track*: is the gene (in this case canonical APC from the WNT signaling pathway), which gives its location.
+- *Gene track*: shows us where the gene (in this case canonical APC from the WNT signaling pathway) is located within that chromosome.
 - *Variant track*: has 4 different "rows" one for the reference, and the other three for the patients. This displays the different STRs in dark blue, and most importantly the variants we're interested in in turquoise. The variant then shows us the genotype and zygosity.
-- *Transcript track*: transcript reference strand. Usually in IGV, there's a transcript track that shows the exons in dark blue boxes along the reference genome. However, in this case we only have the reference sequence and the other three tracks.
+- *Transcript track*: transcript reference strand. Usually in IGV, there's a transcript track that shows the exons in dark blue boxes along the reference genome. However, in this case I couldn't find the transcript track, so only the reference sequence and the other three tracks.
 
 ### Q4
 **Based on the VEP output, which of the STR variants you identified do you expect to have the most impact? Why?**
-Your answer here
+[link = ![image](https://github.com/user-attachments/assets/f5f793bb-4997-4a7b-ad14-8bf68002ffc3)]
+I would expect the variant allele GAGAGAGA to have the most impact because it appears to be located within an exon, so it affects a protein-coding region. This variant seems to introduce a frameshift mutation, which often leads to nonsense mutations and the production of truncated proteins.
+Nonsense-mediated decay (NMD) is a surveillance pathway that recognizes and degrades mRNAs with premature stop codons. Since many of the protein-coding transcripts of the APC gene are predicted to be targets of NMD, this could be detrimental to the Wnt signaling pathway, where APC plays a key regulatory role.
+The other variant falls within an intron, making it less likely to affect protein function unless it disrupts splicing or regulatory elements.
+
+Sources: \
+[link = https://www.ensembl.org/Homo_sapiens/Tools/VEP/Results?tl=EJTwUWdceMoxAJtI-11001158] \
+BCH 252: RNA and Proteins, Lecture 6: mRNA Degradation, Nonsense Mediated DEcay, Prof. Dr. Martin Jinek
 
 ### Q5
 **What phenotype or disease do you expect this variant to be involved with?**
-[link = ![image](https://github.com/user-attachments/assets/f5f793bb-4997-4a7b-ad14-8bf68002ffc3)]
+APC is a tumor suppressor gene, which is usually a negative regulator in Wnt signaling pathway. 
+If this variant creates frameshifts, this could cause a problem of regulating the Wnt signaling pathway, as this is important for embryonic development, stem cell maintenance as well as organ and tissue (re-)generation. If the negative regulator protein is truncated and nonfunctional or gets degarded by NMD, then this makes the Wnt signaling pathway not controlled anymore, this could cause the stem cell maintenance to not be in control anymore, causing uncontrolled proliferation and thus abnormal cell growth, like cancer.
+
+
+Sources \
+Rim, E. Y., Clevers, H., & Nusse, R. (2022). The Wnt Pathway: From Signaling Mechanisms to Synthetic Modulators. Annual Review of Biochemistry, 91, 571-598. [link = https://doi.org/10.1146/annurev-biochem-040320-103615] \
+[link = https://search.clinicalgenome.org/kb/genes/HGNC:583]
 
