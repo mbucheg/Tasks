@@ -47,7 +47,7 @@ Nonsense-mediated decay (NMD) is a surveillance pathway that recognizes and degr
 The other variant falls within an intron, making it less likely to affect protein function unless it disrupts splicing or regulatory elements.
 
 Sources: \
-[link = https://www.ensembl.org/Homo_sapiens/Tools/VEP/Results?tl=EJTwUWdceMoxAJtI-11001158] \
+<https://www.ensembl.org/Homo_sapiens/Tools/VEP/Results?tl=EJTwUWdceMoxAJtI-11001158>
 BCH 252: RNA and Proteins, Lecture 6: mRNA Degradation, Nonsense Mediated DEcay, Prof. Dr. Martin Jinek
 
 ### Q5
@@ -57,6 +57,6 @@ If a variant introduces a frameshift, it could disrupt APC’s function, impairi
 A truncated, nonfunctional APC protein—or one degraded by nonsense-mediated decay (NMD)—would result in loss of regulation. This can lead to uncontrolled Wnt signaling, which may cause excessive stem cell proliferation and ultimately contribute to abnormal cell growth and cancer.
 
 Sources \
-Rim, E. Y., Clevers, H., & Nusse, R. (2022). The Wnt Pathway: From Signaling Mechanisms to Synthetic Modulators. Annual Review of Biochemistry, 91, 571-598. [link = https://doi.org/10.1146/annurev-biochem-040320-103615] \
-[link = https://search.clinicalgenome.org/kb/genes/HGNC:583]
+Rim, E. Y., Clevers, H., & Nusse, R. (2022). The Wnt Pathway: From Signaling Mechanisms to Synthetic Modulators. Annual Review of Biochemistry, 91, 571-598. <https://doi.org/10.1146/annurev-biochem-040320-103615> \
+<https://search.clinicalgenome.org/kb/genes/HGNC:583>
 
