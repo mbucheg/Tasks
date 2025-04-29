@@ -21,9 +21,10 @@ These questions will be graded. The most important thing is not that you get eve
 **Using these four columns, how could you determine whether a sequencing sample contains a variant?**
 * Check the ALT column and see which nucleotide is noted there.  
 * To double-check you compare it with the base in the	REF column.
-  If there's a nucleotide in the ALT column, then that would suggest there is a variant for that specific sequencing sample.
-  For patient 1, we find the 1st position from the last question that changes a>aa when there's a "1/1" in the patient 1 column
-  For patient 3, it's the 2nd position from the last question that changes a>agagagaga.
+
+  If there's a nucleotide in the ALT column, then that would suggest there is a variant for that specific sequencing sample.\
+  For patient 1, we find the 1st position from the last question that changes a>aa when there's a "1/1" in the patient 1 column. \
+  For patient 3, it's the 2nd position from the last question that changes a>agagagaga. \
 
 ### Q3
 **After loading all the files into IGV, there should be four different kind of tracks. Briefly explain what type of information each track contains**
@@ -31,10 +32,11 @@ These questions will be graded. The most important thing is not that you get eve
 * We also have one track that represents the gene, with information on the source and the location on the chromosome that we are at. 
 * Another one representing the transcript.
 * And the last one “merged_results.vcf” contains the variant information for each patient.
-- Patient tracks: Each patient shows the aligned reads from the corresponding BAM file. When it's grey, this means it aligns with the reference genome. The first line of the track that spans the whole chromosome with different levels is the coverage track, so how many reads cover each base.
-- Gene track: is the gene (in this case canonical APC from the WNT signaling pathway), which gives its location.
-- Variant track: has 4 different "rows" one for the reference, and the other three for the patients. This displays the different STRs in dark blue, and most importantly the variants we're interested in turquoise. The variant then shows us the genotype and zygosity.
-- Transcript track: transcript reference strand
+  
+- *Patient tracks*: Each patient shows the aligned reads from the corresponding BAM file. When it's grey, this means it aligns with the reference genome. The first line of the track that spans the whole chromosome with different levels is the coverage track, so how many reads cover each base.
+- *Gene track*: is the gene (in this case canonical APC from the WNT signaling pathway), which gives its location.
+- *Variant track*: has 4 different "rows" one for the reference, and the other three for the patients. This displays the different STRs in dark blue, and most importantly the variants we're interested in in turquoise. The variant then shows us the genotype and zygosity.
+- *Transcript track*: transcript reference strand. Usually in IGV, there's a transcript track that shows the exons in dark blue boxes along the reference genome. However, in this case we only have the reference sequence and the other three tracks.
 
 ### Q4
 **Based on the VEP output, which of the STR variants you identified do you expect to have the most impact? Why?**
