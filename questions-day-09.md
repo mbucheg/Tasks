@@ -5,8 +5,10 @@ These questions will be graded. The most important thing is not that you get eve
 
 ### Q1
 **What information do the CHROM, POS, REF, and ALT columns contain in a VCF file?**
-* CHROM: Which chromosome are we on? It is identified via the reference genome. 
-* POS: Which position contains a variant? 
+* CHROM: Which chromosome are we on? It is identified via the reference genome.
+  Chromosome 5
+* POS: Which position contains a variant?
+  Position chr5.106700
 * REF: What is the nucleotide in the reference genome? A ‘.’ means there is no variant.  
 * ALT: What is the alternate allele of our sequence at this position? 
 
