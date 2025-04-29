@@ -24,7 +24,7 @@ These questions will be graded. The most important thing is not that you get eve
 
   If there's a nucleotide in the ALT column, then that would suggest there is a variant for that specific sequencing sample.\
   For patient 1, we find the 1st position from the last question that changes a>aa when there's a "1/1" in the patient 1 column. \
-  For patient 3, it's the 2nd position from the last question that changes a>agagagaga. \
+  For patient 3, it's the 2nd position from the last question that changes a>agagagaga. 
 
 ### Q3
 **After loading all the files into IGV, there should be four different kind of tracks. Briefly explain what type of information each track contains**
@@ -44,4 +44,5 @@ Your answer here
 
 ### Q5
 **What phenotype or disease do you expect this variant to be involved with?**
-Your answer here
+[link = ![image](https://github.com/user-attachments/assets/f5f793bb-4997-4a7b-ad14-8bf68002ffc3)]
+
