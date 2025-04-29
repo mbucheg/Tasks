@@ -40,7 +40,7 @@ These questions will be graded. The most important thing is not that you get eve
 
 ### Q4
 **Based on the VEP output, which of the STR variants you identified do you expect to have the most impact? Why?**
-link = ![image](https://github.com/user-attachments/assets/f5f793bb-4997-4a7b-ad14-8bf68002ffc3)
+ ![image](https://github.com/user-attachments/assets/f5f793bb-4997-4a7b-ad14-8bf68002ffc)
 I would expect the variant allele GAGAGAGA to have the most impact because it appears to be located within an exon, so it affects a protein-coding region. This variant seems to introduce a frameshift mutation, which often leads to nonsense mutations and the production of truncated proteins.
 Nonsense-mediated decay (NMD) is a surveillance pathway that recognizes and degrades mRNAs with premature stop codons. Since many of the protein-coding transcripts of the APC gene are predicted to be targets of NMD, this could be detrimental to the Wnt signaling pathway, where APC plays a key regulatory role.
 The other variant falls within an intron, making it less likely to affect protein function unless it disrupts splicing or regulatory elements.
